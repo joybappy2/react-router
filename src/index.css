@@ -1,14 +1,7 @@
-body{
-    background-color: black;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
+@import "tailwindcss";
+@plugin "daisyui";
 
-*{
-    margin: 0;
-    padding: 0;
-}
 
-.text-center{
-    text-align: center;
+.active{
+    color: orange;
 }
